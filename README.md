@@ -67,7 +67,7 @@ loss_g = criterion(gen_fake, torch.ones_like(gen_fake))
 
 **WGAN-GP** 对 **WGAN** 进行修改，将 Weight Clipping 改为了 Gradient Penalty！两者的参数分布对比：
 
-![](images\gp.jpg)
+<img src="images\gp.jpg" style="zoom:40%;" />
 
 #### Gradient Penalty
 
